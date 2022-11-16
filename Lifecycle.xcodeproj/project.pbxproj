@@ -14,6 +14,7 @@
 		1827B3262925334B00D64397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827B3242925334B00D64397 /* LaunchScreen.storyboard */; };
 		1827B32E2925335500D64397 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B32D2925335500D64397 /* SomeView.swift */; };
 		1827B332292533BF00D64397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B331292533BE00D64397 /* ViewController.swift */; };
+		1827B334292541FA00D64397 /* MyCustomAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827B333292541FA00D64397 /* MyCustomAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1827B3272925334B00D64397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1827B32D2925335500D64397 /* SomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
 		1827B331292533BE00D64397 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1827B333292541FA00D64397 /* MyCustomAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				1827B3192925334900D64397 /* AppDelegate.swift */,
-				1827B331292533BE00D64397 /* ViewController.swift */,
+				1827B333292541FA00D64397 /* MyCustomAppDelegate.swift */,
 				1827B31B2925334900D64397 /* SceneDelegate.swift */,
+				1827B331292533BE00D64397 /* ViewController.swift */,
 				1827B32D2925335500D64397 /* SomeView.swift */,
 				1827B31F2925334900D64397 /* Main.storyboard */,
 				1827B3222925334B00D64397 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				1827B332292533BF00D64397 /* ViewController.swift in Sources */,
 				1827B32E2925335500D64397 /* SomeView.swift in Sources */,
 				1827B31A2925334900D64397 /* AppDelegate.swift in Sources */,
+				1827B334292541FA00D64397 /* MyCustomAppDelegate.swift in Sources */,
 				1827B31C2925334900D64397 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

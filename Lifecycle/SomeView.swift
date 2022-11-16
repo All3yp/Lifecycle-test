@@ -27,25 +27,25 @@ class SomeView: UIView {
 
 	override init(frame: CGRect) {
 		super.init(frame: frame)
-		print("🏐🎾init SomeView(frame: CGRect)")
+		print("🏐🎾 \(#function) | State: \(UIApplication.shared.applicationState.toString())")
 		style()
 		layout()
 		configureButton()
 	}
 
 	required init?(coder: NSCoder) {
-		print("🎾🏐required init")
+		print("🏐🎾 \(#function) | State: \(UIApplication.shared.applicationState.toString())")
 		fatalError("init(coder:) has not been implemented")
 	}
 
 	override func layoutSubviews() {
 		super.layoutSubviews()
-		print("💃 layoutSubviews 💃")
+		print("💃 \(#function) | State: \(UIApplication.shared.applicationState.toString())")
 	}
 
 	override func removeFromSuperview() {
 		super.removeFromSuperview()
-		print("⚠️ removeFromSuperview ⚠️")
+		print("⚠️ \(#function) | State: \(UIApplication.shared.applicationState.toString())")
 	}
 
 
